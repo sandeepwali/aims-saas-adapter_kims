@@ -1,0 +1,49 @@
+2025-11-28 12:33:21,417 - INFO - pid - ensure_single_instance - PID file created at C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid with PID 24528
+2025-11-28 12:33:21,418 - INFO - app - run_sync_daemon - Starting Automated Article Delta Sync Service
+2025-11-28 12:33:21,421 - INFO - load_artciles - __init__ - AIMS SaaS client initialized.
+2025-11-28 12:33:21,422 - INFO - maintenance - _zip_previous_day_folder - Created ZIP: C:\workspace\kim\aims-saas-adapter_kims_latest\data\archived\27112025.zip
+2025-11-28 12:33:21,423 - INFO - maintenance - _zip_previous_day_folder - Deleted raw folder after ZIP: C:\workspace\kim\aims-saas-adapter_kims_latest\data\archived\27112025
+2025-11-28 12:33:21,424 - INFO - app - run_sync_daemon - No new CSV files found.
+2025-11-28 12:33:21,424 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:38:21,428 - INFO - app - run_sync_daemon - No new CSV files found.
+2025-11-28 12:38:21,430 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:38:45,276 - INFO - app - run_sync_daemon - PID file C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid removed on exit.
+2025-11-28 12:39:05,554 - INFO - pid - ensure_single_instance - PID file created at C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid with PID 1696
+2025-11-28 12:39:05,554 - INFO - app - run_sync_daemon - Starting Automated Article Delta Sync Service
+2025-11-28 12:39:05,566 - INFO - load_artciles - __init__ - AIMS SaaS client initialized.
+2025-11-28 12:39:05,567 - INFO - maintenance - _zip_previous_day_folder - No folder to ZIP for yesterday: 27112025
+2025-11-28 12:39:05,568 - INFO - app - run_sync_daemon - Processing CSV file: test.csv
+2025-11-28 12:39:05,599 - INFO - app - run_sync_daemon - Syncing articles from CSV: test_20251128_123905.csv
+2025-11-28 12:39:05,600 - INFO - load_artciles - sync_all_pending_articles - Checking DB for pending article updates...
+2025-11-28 12:39:06,490 - ERROR - load_artciles - _send_payload - AIMS SaaS API call failed on attempt 1: 401 Client Error: Unauthorized for url: https://eu.common.solumesl.com/c1/common/api/v2/token
+2025-11-28 12:39:08,342 - ERROR - load_artciles - _send_payload - AIMS SaaS API call failed on attempt 2: 401 Client Error: Unauthorized for url: https://eu.common.solumesl.com/c1/common/api/v2/token
+2025-11-28 12:39:09,977 - ERROR - load_artciles - _send_payload - AIMS SaaS API call failed on attempt 3: 401 Client Error: Unauthorized for url: https://eu.common.solumesl.com/c1/common/api/v2/token
+2025-11-28 12:39:12,033 - ERROR - load_artciles - _send_payload - AIMS SaaS API call failed on attempt 4: 401 Client Error: Unauthorized for url: https://eu.common.solumesl.com/c1/common/api/v2/token
+2025-11-28 12:39:13,904 - ERROR - load_artciles - _send_payload - AIMS SaaS API call failed on attempt 5: 401 Client Error: Unauthorized for url: https://eu.common.solumesl.com/c1/common/api/v2/token
+2025-11-28 12:39:14,907 - ERROR - load_artciles - _send_payload - Failed to send articles after 5 attempts.
+2025-11-28 12:39:14,908 - ERROR - load_artciles - sync_all_pending_articles - Failed to send articles to AIMS API.
+2025-11-28 12:39:14,909 - WARNING - app - run_sync_daemon - CSV moved to failed folder due to sync failure: C:\workspace\kim\aims-saas-adapter_kims_latest\data\failed\test_20251128_123905.csv
+2025-11-28 12:39:14,910 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:39:25,635 - INFO - app - run_sync_daemon - PID file C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid removed on exit.
+2025-11-28 12:40:19,234 - INFO - pid - ensure_single_instance - PID file created at C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid with PID 24528
+2025-11-28 12:40:19,234 - INFO - app - run_sync_daemon - Starting Automated Article Delta Sync Service
+2025-11-28 12:40:19,237 - INFO - load_artciles - __init__ - AIMS SaaS client initialized.
+2025-11-28 12:40:19,237 - INFO - maintenance - _zip_previous_day_folder - No folder to ZIP for yesterday: 27112025
+2025-11-28 12:40:19,238 - INFO - app - run_sync_daemon - Processing CSV file: test_20251128_123905.csv
+2025-11-28 12:40:19,241 - INFO - app - run_sync_daemon - Syncing articles from CSV: test_20251128_123905_20251128_124019.csv
+2025-11-28 12:40:19,242 - INFO - load_artciles - sync_all_pending_articles - Checking DB for pending article updates...
+2025-11-28 12:40:20,364 - INFO - aims_saas_api_client - get_access_token - Successfully obtained new access token.
+2025-11-28 12:40:20,667 - INFO - load_artciles - sync_all_pending_articles - Marked 4 articles as synced.
+2025-11-28 12:40:20,669 - INFO - app - run_sync_daemon - CSV archived successfully: C:\workspace\kim\aims-saas-adapter_kims_latest\data\archived\28112025\test_20251128_123905_20251128_124019.csv
+2025-11-28 12:40:20,669 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:45:20,671 - INFO - app - run_sync_daemon - Processing CSV file: solum-export.csv
+2025-11-28 12:45:33,712 - INFO - app - run_sync_daemon - Syncing articles from CSV: solum-export_20251128_124533.csv
+2025-11-28 12:45:33,712 - INFO - load_artciles - sync_all_pending_articles - Checking DB for pending article updates...
+2025-11-28 12:45:35,291 - INFO - load_artciles - sync_all_pending_articles - Marked 1397 articles as synced.
+2025-11-28 12:45:35,296 - INFO - app - run_sync_daemon - CSV archived successfully: C:\workspace\kim\aims-saas-adapter_kims_latest\data\archived\28112025\solum-export_20251128_124533.csv
+2025-11-28 12:45:35,297 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:50:35,298 - INFO - app - run_sync_daemon - No new CSV files found.
+2025-11-28 12:50:35,299 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 12:55:35,301 - INFO - app - run_sync_daemon - No new CSV files found.
+2025-11-28 12:55:35,302 - INFO - app - run_sync_daemon - Sleeping for 300 seconds before next check...
+2025-11-28 13:00:28,265 - INFO - app - run_sync_daemon - PID file C:\workspace\kim\aims-saas-adapter_kims_latest\data\sync_daemon.pid removed on exit.
